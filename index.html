@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width , initial-scale=1.0">
+  <title> Quiz Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/34701b64dc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-info">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggling" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="toggling">
+      <a class="navbar-brand" href="#">Quiz game</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"> <a class="nav-link" href="aboutgame.html" target="_blank" rel="noreferrer nofollow"> about us</a> </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="playStopMusic">
+    <button id="stopSound" class="btn btn-success btn-sm" type="button" > <i class="fas fa-stop"></i> </button>
+    <button id="playSound"  class="btn btn-primary btn-sm" type="button" > <i  class="fas fa-play"></i> </button>
+  </div>
+
+  <h1>Test your IQ</h1>
+  <button id="buttonclick" class="show1" type="button" name="button"> <img class="imagestyle" src="https://media2.giphy.com/media/Ln2d9ocIIBvRYIFY5R/giphy.gif?cid=ecf05e47ecfuty60bkaqci5oqccl1oh6b10zjz472k9bp9c0&rid=giphy.gif" alt="tap here"></button>
+  <button id="buttonnext"  class="show2" type="button" name="button">Try Again</button>
+
+
+  <div class="container">
+    <div class=" item item1">
+      <p id="demo1"></p>
+    </div>
+    <div class="optionclick item item2">
+      <p id="demo2"></p>
+    </div>
+    <div class="optionclick item item3">
+      <p id="demo3"></p>
+    </div>
+    <div class="optionclick item item4">
+      <p id="demo4"></p>
+    </div>
+    <div class="optionclick item item5">
+      <p id="demo5"></p>
+    </div>
+
+    <script src="index1.js" charset="utf-8"></script>
+  </div>
+</body>
+
+</html>
