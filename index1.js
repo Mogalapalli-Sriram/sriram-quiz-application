@@ -46,6 +46,11 @@ function gameSoundButtons() {
   });
 }
 
+function reload() {
+  reload = location.reload();
+  return reload;
+}
+
 
 // keypress event for the game to start
 function begin(action) {
